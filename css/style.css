@@ -1,0 +1,83 @@
+/* ******************* */
+/* HEADER */
+/* ******************* */
+
+.header {
+  font-size: 3rem;
+  background-color: #d9480f;
+  padding: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 6.4rem;
+}
+
+.header-container {
+  background-color: #fff;
+  border-radius: 4rem;
+  padding: 2rem 4rem 2rem 4rem;
+
+  gap: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: 0 10px 30px 0 rgba(255, 169, 77, 0.432);
+}
+
+.header-btn,
+.menu-btn {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #222;
+
+  transition: all 0.5s;
+}
+/* BOTON DE MENU */
+.menu-btn {
+  color: #e67700;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+
+  background-image: linear-gradient(to right, #98320b, #f76707 50%, #000 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-btn:before {
+  content: "";
+  background: #f08c00;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-btn:hover {
+  background-position: 0;
+}
+
+.menu-btn:hover::before {
+  width: 100%;
+}
+
+/* BOTON DE MENU */
+
+.header-btn:hover {
+  color: #d9480f;
+  transform: scale(1);
+  cursor: pointer;
+}
+
+/* 2 SECCION */
