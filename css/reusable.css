@@ -25,9 +25,9 @@ body {
   font-weight: 400;
   color: #333;
 
-  background-image: url("../img/Chairheader.jpg");
+  background-image: url("../img/chairheader.jpg");
   background-repeat: no-repeat;
-  object-fit: contain;
+  background-size: cover;
 }
 
 /**************** */
