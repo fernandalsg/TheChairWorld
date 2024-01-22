@@ -24,7 +24,7 @@
   justify-content: space-between;
   align-items: center;
 
-  box-shadow: 0 10px 30px 0 rgba(255, 169, 77, 0.432);
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.214);
 }
 
 .header-btn,
@@ -80,16 +80,35 @@
   cursor: pointer;
 }
 
-/* 2 SECCION */
+/* ************************** */
+/* SECTION HERO */
+/* ************************** */
 
 .section-hero {
-  /* background-color: #f08c00; */
-  /* background-image: url("../img/Chairheader.jpg");
-  background-repeat: no-repeat; */
+  font-size: 2rem;
+  padding: 8rem;
+  color: #222;
 
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6rem;
 }
 
-.hero-title {
+.hero-cta {
+  background-color: #f08c00;
+  border-radius: 11px;
+  padding: 2rem;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.253);
+
+  transition: all 0.6s;
+}
+
+.hero-cta:hover {
+  transform: translateY(-1rem);
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.214);
+}
+
+.hero-text {
+  font-size: 1.6rem;
+  padding: 4rem;
 }
