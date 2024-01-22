@@ -4,20 +4,20 @@
 
 .header {
   font-size: 3rem;
-  background-color: #d9480f;
   padding: 2rem;
 
   display: flex;
   justify-content: center;
   align-items: center;
 
-  margin-bottom: 6.4rem;
+  /* margin-bottom: 6.4rem; */
 }
 
 .header-container {
   background-color: #fff;
   border-radius: 4rem;
   padding: 2rem 4rem 2rem 4rem;
+  background-color: rgba(255, 255, 255, 0.554);
 
   gap: 4rem;
   display: flex;
@@ -81,3 +81,15 @@
 }
 
 /* 2 SECCION */
+
+.section-hero {
+  /* background-color: #f08c00; */
+  /* background-image: url("../img/Chairheader.jpg");
+  background-repeat: no-repeat; */
+
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.hero-title {
+}
