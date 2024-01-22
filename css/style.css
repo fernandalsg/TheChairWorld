@@ -72,14 +72,6 @@
   width: 100%;
 }
 
-/* BOTON DE MENU */
-
-.header-btn:hover {
-  color: #d9480f;
-  transform: scale(1);
-  cursor: pointer;
-}
-
 /* ************************** */
 /* SECTION HERO */
 /* ************************** */
