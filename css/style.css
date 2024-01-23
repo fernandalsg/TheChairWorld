@@ -2,6 +2,12 @@
 /* HEADER */
 /* ******************* */
 
+.img-background {
+  background-image: url("../img/chairheader.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .header {
   font-size: 3rem;
   padding: 2rem;
@@ -106,7 +112,62 @@
   padding: 4rem;
 }
 
+/* ************************** */
+/* SLIDER(carrusel) */
+/* *************************** */
+
 .container {
-  background-color: #fff;
-  padding: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+  background-color: #f8f9fa;
+  padding: 2rem;
+}
+
+.slider-wrapper {
+  max-width: 1200px;
+  width: 95%;
+}
+
+.slider-wrapper .img-list {
+  display: grid;
+  gap: 1.2rem;
+  font-size: 0;
+  margin-bottom: 3rem;
+  overflow-x: auto;
+  scrollbar-width: none;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.slider-wrapper .img-list::-webkit-scrollbar {
+  display: none;
+}
+
+.slider-wrapper .img-list .img-item {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.slider-wrapper .slider-scrollbar {
+  height: 2.4rem;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+}
+
+.slider-scrollbar .scrollback-track {
+  height: 2rem;
+  width: 100%;
+  background: #ccc;
+}
+
+.slider-scrollbar .scrollback-thumb {
+  position: absolute;
+  height: 2rem;
+  width: 100%;
+  background: #000;
 }
